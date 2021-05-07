@@ -1,0 +1,43 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Button {
+  border: 1px solid #bbb;
+  background-color: #bbb;
+  color: #555;
+  font-weight: bold;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.Card {
+  background-color: white;
+  border: 1px solid dodgerblue;
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+}
+
+.Cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.Navbar {
+  background-color: white;
+  border: 1px solid #555;
+  color: #bbb;
+  padding: 0 1rem;
+}
